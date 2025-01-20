@@ -15,7 +15,7 @@ data = pd.read_excel(data_path, sheet_name=sheet_name)
 data.columns = data.columns.str.strip()  # Remove leading/trailing whitespace
 data['Resurse de munca'] = data['Resurse de munca'].str.replace(',', '.').astype(float)
 numerical_cols = [
-    'Accidente colective de munca (dummy variable)',
+    'Accidente colective de munca',
     'Biblioteci',
     'Castigul salarial nominal mediu net lunar',
     'Numarul mediu al salariatilor',
