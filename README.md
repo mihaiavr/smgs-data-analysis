@@ -60,7 +60,7 @@ project/
 ### 1. Prepare Input Data
 Place the file `employment_dataset_raw.xlsx` in the `dataIN` folder. The input dataset must contain the following columns:
 - Macroregiuni, regiuni de dezvoltare si judete
-- Accidente colective de munca (dummy variable)
+- Accidente colective de munca 
 - Biblioteci
 - Castigul salarial nominal mediu net lunar
 - Numarul mediu al salariatilor
